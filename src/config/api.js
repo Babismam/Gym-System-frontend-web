@@ -1,7 +1,7 @@
 import axios from "axios";
 import { getToken } from "../services/authService";
 
-const API_URL = "http://localhost:8080/gymmanagement/api";
+const API_URL = "https://gym-system-backend-web-production.up.railway.app/gymmanagement/api";
 
 const api = axios.create({
   baseURL: API_URL,
